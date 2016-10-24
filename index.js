@@ -133,7 +133,7 @@ var generalContainer;
 generalContainer = "what am i doing?";
 generalContainer = 5;
 generalContainer = true;
-generalContainer = "lets get the party starteddd"
+generalContainer = ["what","ever","do","you","mean"]
 generalContainer = [1,2,3];
 
 /**
