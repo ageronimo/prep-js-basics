@@ -10,7 +10,9 @@
 * It should be a String.
 **/
 
-
+var firstName = "Angela";
+var lastName = "Geronimo";
+var birthPlace = "Honolulu";
 
 /**
 * #2
@@ -22,7 +24,9 @@
 * Their values should be a Number
 **/
 
-
+var favoriteNumber = 3;
+var currentYear = 2016;
+var thatOnePrinceSong = 8;
 
 /**
 * #3
@@ -34,6 +38,9 @@
 * Their values should be a Boolean
 **/
 
+var isDaytime = true;
+var isLeftHanded = false; 
+var inHawaii = true;
 
 
 /**
@@ -45,7 +52,8 @@
 * Their values should be a Null value
 **/
 
-
+var enrolledAtDevLeague;
+var completedFridayPrep;
 
 /**
 * #5a
@@ -56,18 +64,18 @@
 * which can be found along the west coast of The United States.
 **/
 
-
+var westCoast = ["Hawaii","California","Oregon","Washington","Nevada","Alaska"];
 
 /**
 * #5b
 * Variables with an Array for it's value. This Array will contain:
 *
 * Declare a variable named `evenNumbers` which is an Array.
-* This Array contains numbers that are considered 'even values'.
+* This Array contains numbers that are considered "even values".
 * Have at least ten even values in this array.
 **/
 
-
+var evenNumbers = [2,4,6,8,10,12,14,16,18,20];
 
 /**
 * #6a Arithmetic
@@ -80,7 +88,8 @@
 * Extend this behavior to include subtraction, multiplication and division.
 */
 
-
+var sumOfNumbers;
+sumOfNumbers = 1+2+3;
 
 
 /**
@@ -101,7 +110,8 @@
 *   operator(==) vs triple comparison operator(===).
 */
 
-
+var isEqual = "tacocat"=="Tacocat";
+console.log(isEqual);
 
 /**
 * #6c Assignments
@@ -119,7 +129,12 @@
 *   it can only test that you declared the variable by giving it the right name.
 */
 
-
+var generalContainer;
+generalContainer = "what am i doing?";
+generalContainer = 5;
+generalContainer = true;
+generalContainer = "lets get the party starteddd"
+generalContainer = [1,2,3];
 
 /**
 * #7a
@@ -133,6 +148,13 @@
 * Store the return value to a variable named `jumpResult` and use console.log to inspect the value which was returned by your function
 **/
 
+function jump(height){
+	var jumpResult = "You jumped "+height+" feet high!";
+	console.log(jumpResult)
+}
+
+jump(9);
+
 
 
 /**
@@ -145,3 +167,8 @@
 * if invoked in this way -> cook("Tomatoes", "Cheese", "Pizza");
 **/
 
+function cook(ingredient1,ingredient2,recipeName){
+	console.log(ingredient1+" and "+ingredient2+" make a "+recipeName)
+}
+
+cook("Tomatoes","Cheese","Pizza")
