@@ -108,10 +108,15 @@ sumOfNumbers = 1+2+3;
 * BONUS:
 *   See if you can come up with a few examples of double comparison
 *   operator(==) vs triple comparison operator(===).
+
 */
 
 var isEqual = "tacocat"=="Tacocat";
-return(isEqual);
+// console.log(isEqual)
+BONUS
+/*  1=="1"; //true
+1==="1"; //false
+*/
 
 /**
 * #6c Assignments
@@ -134,7 +139,7 @@ generalContainer = "what am i doing?";
 generalContainer = 5;
 generalContainer = true;
 generalContainer = ["what","ever","do","you","mean"]
-generalContainer = jump(9);
+generalContainer = [1,2,3];
 
 /**
 * #7a
@@ -168,7 +173,7 @@ jump(9);
 **/
 
 function cook(ingredient1,ingredient2,recipeName){
-	return(ingredient1+" and "+ingredient2+" make a "+recipeName);
+	return(ingredient1+" and "+ingredient2+" make a "+recipeName+"!");
 }
 
 cook("Tomatoes","Cheese","Pizza")
