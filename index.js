@@ -111,7 +111,7 @@ sumOfNumbers = 1+2+3;
 */
 
 var isEqual = "tacocat"=="Tacocat";
-console.log(isEqual);
+return(isEqual);
 
 /**
 * #6c Assignments
@@ -134,7 +134,7 @@ generalContainer = "what am i doing?";
 generalContainer = 5;
 generalContainer = true;
 generalContainer = ["what","ever","do","you","mean"]
-generalContainer = [1,2,3];
+generalContainer = jump(9);
 
 /**
 * #7a
@@ -150,7 +150,7 @@ generalContainer = [1,2,3];
 
 function jump(height){
 	var jumpResult = "You jumped "+height+" feet high!";
-	console.log(jumpResult)
+	return(jumpResult);
 }
 
 jump(9);
@@ -168,7 +168,7 @@ jump(9);
 **/
 
 function cook(ingredient1,ingredient2,recipeName){
-	console.log(ingredient1+" and "+ingredient2+" make a "+recipeName)
+	return(ingredient1+" and "+ingredient2+" make a "+recipeName);
 }
 
 cook("Tomatoes","Cheese","Pizza")
